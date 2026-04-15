@@ -124,6 +124,16 @@ classifiers = [
 ]
 dynamic = ["dependencies"]
 
+[project.optional-dependencies]
+datasets = [
+    "bdd100k",
+    "scalabel",
+    "nuscenes-devkit",
+]
+typing = [
+    "scipy-stubs",
+]
+
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements/install.txt"]}
 

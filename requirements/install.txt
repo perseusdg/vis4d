@@ -7,7 +7,7 @@ h5py
 jsonargparse[signatures]
 lightning
 ml_collections==1.1.0 # Config interface. Need exact version since we overwrite internal functions
-numpy>=1.21.0,<2.0.0
+numpy>=2.0.0,<3.0.0
 opencv-python
 pandas
 pillow
@@ -25,9 +25,3 @@ tqdm
 utm
 wheel
 scipy
-scipy-stubs
-
-# packages for datasets
-bdd100k
-scalabel
-nuscenes-devkit
